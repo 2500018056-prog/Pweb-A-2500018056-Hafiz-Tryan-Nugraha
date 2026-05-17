@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Layout CSS 3 Kolom 2 Baris</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+  background-color: #4da6ff;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+/* Container Baris */
+.row {
+  display: flex;
+}
+
+/* Box Kolom */
+.column {
+  flex: 33.33%;
+  padding: 20px;
+  height: 220px;
+  border: 2px solid white;
+  color: black;
+}
+
+/* Warna Box */
+.box1 {
+  background-color: #ff9999;
+}
+
+.box2 {
+  background-color: #99ff99;
+}
+
+.box3 {
+  background-color: #ffff99;
+}
+
+.box4 {
+  background-color: #ffb3d9;
+}
+
+.box5 {
+  background-color: #d9d9d9;
+}
+
+.box6 {
+  background-color: #66cccc;
+}
+
+/* Footer */
+.footer {
+  background-color: #4da6ff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>HEADER WEBSITE</h1>
+  <p>Contoh Layout CSS 3 Kolom dan 2 Baris</p>
+</div>
+
+<!-- Baris 1 -->
+<div class="row">
+
+  <div class="column box1">
+    <h2>Kolom 1</h2>
+    <p>
+      Berisi informasi profil website.
+    </p>
+  </div>
+
+  <div class="column box2">
+    <h2>Kolom 2</h2>
+    <p>
+      Berisi menu dan navigasi halaman.
+    </p>
+  </div>
+
+  <div class="column box3">
+    <h2>Kolom 3</h2>
+    <p>
+      Berisi berita atau artikel terbaru.
+    </p>
+  </div>
+
+</div>
+
+<!-- Baris 2 -->
+<div class="row">
+
+  <div class="column box4">
+    <h2>Kolom 4</h2>
+    <p>
+      Berisi galeri foto atau gambar.
+    </p>
+  </div>
+
+  <div class="column box5">
+    <h2>Kolom 5</h2>
+    <p>
+      Berisi data kontak dan alamat.
+    </p>
+  </div>
+
+  <div class="column box6">
+    <h2>Kolom 6</h2>
+    <p>
+      Berisi informasi tambahan website.
+    </p>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>FOOTER</h2>
+  <p>Copyright © 2026</p>
+</div>
+
+</body>
+</html>
