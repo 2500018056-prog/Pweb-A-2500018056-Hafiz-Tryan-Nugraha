@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Layout CSS</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Container */
+.row {
+  display: flex;
+}
+
+/* Kolom */
+.column {
+  flex: 33.33%;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+/* Warna tiap box */
+.box1 { background-color: lightcoral; }
+.box2 { background-color: lightgreen; }
+.box3 { background-color: lightyellow; }
+.box4 { background-color: lightpink; }
+.box5 { background-color: lightgray; }
+.box6 { background-color: lightseagreen; }
+
+/* Footer */
+.footer {
+  background-color: lightblue;
+  text-align: center;
+  padding: 15px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>HEADER</h1>
+</div>
+
+<!-- Baris Pertama -->
+<div class="row">
+  <div class="column box1">
+    <h2>Kolom 1</h2>
+    <p>Isi informasi kolom pertama</p>
+  </div>
+
+  <div class="column box2">
+    <h2>Kolom 2</h2>
+    <p>Isi informasi kolom kedua</p>
+  </div>
+
+  <div class="column box3">
+    <h2>Kolom 3</h2>
+    <p>Isi informasi kolom ketiga</p>
+  </div>
+</div>
+
+<!-- Baris Kedua -->
+<div class="row">
+  <div class="column box4">
+    <h2>Kolom 4</h2>
+    <p>Isi informasi kolom keempat</p>
+  </div>
+
+  <div class="column box5">
+    <h2>Kolom 5</h2>
+    <p>Isi informasi kolom kelima</p>
+  </div>
+
+  <div class="column box6">
+    <h2>Kolom 6</h2>
+    <p>Isi informasi kolom keenam</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>FOOTER</h2>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Penilaian Huruf</title>
+</head>
+<body>
+
+<script language="JavaScript">
+
+var nilai = prompt("Masukkan Nilai (0-100): ", 0);
+
+if (nilai >= 0 && nilai <= 20){
+    hasil = "E";
+}
+else if (nilai >= 21 && nilai <= 39){
+    hasil = "D";
+}
+else if (nilai >= 40 && nilai <= 64){
+    hasil = "C";
+}
+else if (nilai >= 65 && nilai <= 79){
+    hasil = "B";
+}
+else if (nilai >= 80 && nilai <= 100){
+    hasil = "A";
+}
+else{
+    hasil = "Nilai tidak valid";
+}
+
+document.write("Nilai Huruf : " + hasil);
+
+</script>
+
+</body>
+</html>
